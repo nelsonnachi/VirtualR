@@ -1,5 +1,5 @@
 import {checklistItems} from "../Constant/index";
-import codingImg from '../assets/codeimg.jpg'
+import codingimg from '../assets/codeimg.jpg'
 import { BiCheckCircle } from 'react-icons/bi';
 
 
@@ -13,7 +13,7 @@ const Workflow = () => {
       </h2>
       <div className='flex flex-wrap justify-center'>
         <div className='p-2 w-full lg:w-1/2'>
-          <img src={codingImg} alt="" />
+          <img src={codingimg} alt="" />
         </div>
         <div className="pt-12 w-full lg:w-1/2">
           {checklistItems.map((item, index) => (
